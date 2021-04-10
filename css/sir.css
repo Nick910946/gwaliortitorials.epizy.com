@@ -1,0 +1,126 @@
+*{
+  margin:0;
+  padding: 0;
+
+}
+		.a{
+  	background-color:#412042;
+
+}
+li a{
+      
+      word-spacing: 20px;
+      margin-left: 80px;
+      font-family: 'Fjalla One', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+
+}
+li a:hover{
+	 background-color:red ;
+      border-radius: 5px;
+}
+
+
+
+.mobilelogo{
+  display: none;
+  border-radius: 50px;
+}
+
+.caption{
+     color: #fff;
+    position: fixed; 
+    top: 27%;
+    left: 82px;
+    margin-top: 165px;
+    margin-left: 380px;
+  text-align: center;
+  }
+  .op{
+    width: 90px;
+    height: 80px;
+    display: inline-block;
+   
+    line-height: 80px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px rgb(0 0 0 / 10%);
+
+}
+.oop{
+    width: 140px;
+    height: 120px;
+    display: inline-block;
+    margin-left: 20px;
+    line-height: 80px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px rgb(0 0 0 / 10%);
+
+}
+.icon{
+  font-size: 20px;
+  color: #716f85;
+}
+.btn{
+  width: 165px;
+  height: 40px;
+  border-radius: 150px;
+  background-color:#736ac5;
+}
+.info{
+  color: #716f85;
+  justify-content: center;
+}
+.para{
+  font-size: 17px;
+}
+.im6{
+  margin-top: 100px;
+  
+}
+.welc{
+
+  text-align: center;
+  font-size: 35px;
+  margin-top: 65px;
+
+}
+.para{ margin-left: 28px;
+  
+ 
+}
+.self{
+  font-size: 18px;
+  text-align: justify;
+}
+
+
+
+@media(max-width: 724px){
+  .mobilelogo{
+    display: block;
+  }
+  .web-logo{                          
+    display:none;
+
+  }
+  .bg-color{
+    background: #f3c420;
+  }
+  .b{
+    background-color:black;
+  }
+
+}
+
+
+  
+@media (max-width: 723px){
+  .caption{
+    
+    position: fixed; 
+   margin: auto;
+   margin-top: 100px;
+  text-align: center;
+    margin-left: -47px;
+  }
+}
